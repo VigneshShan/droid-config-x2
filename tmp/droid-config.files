@@ -28,7 +28,6 @@
 /etc/xdg/QtProject/QPlatformTheme.conf
 /etc/xdg/QtProject/Sensors.conf
 /etc/xdg/QtProject/QtQuick2.conf
-/etc/media_codecs_performance.xml
 /etc/mixer_paths.xml
 /etc/bluetooth/jolla.conf
 /etc/bluetooth/network.conf
