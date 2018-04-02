@@ -59,6 +59,8 @@
 /lib/udev/rules.d/997-droid-drm.rules
 /lib/udev/platform-device
 /etc/ofono/ril_subscription.conf
+/etc/gst-droid/gstdroidcamsrc-1.conf
+/etc/gst-droid/gstdroidcamsrc-0.conf
 /var/lib/environment/compositor/droid-hal-device.conf
 /var/lib/environment/nemo/99-qtscenegraph.conf
 /usr/libexec/droid-hybris/system/etc/init/dumpstate.rc
@@ -82,6 +84,9 @@
 /usr/libexec/droid-hybris/system/etc/init/gatekeeperd.rc
 /usr/libexec/droid-hybris/system/etc/init/bootstat.rc
 /usr/libexec/droid-hybris/system/etc/init/debuggerd.rc
+/usr/bin/droid/android-links.sh
 /usr/bin/droid/droid-hal-startup.sh
+/lib/systemd/system/android-links.service
 /lib/systemd/system/wlan-module-load.service
 /lib/systemd/system/basic.target.wants/wlan-module-load.service
+/lib/systemd/system/multi-user.target.wants/android-links.service
